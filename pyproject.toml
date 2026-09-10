@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "talentflow_enterprise_hr_workforce_analytics"
+version = "1.0.0"
+description = "Enterprise People & Workforce Analytics Data Warehouse: Voluntary attrition flight risk models, time-to-fill / cost-per-hire, pay equity gap, and performance rating distribution."
+readme = "README.md"
+authors = [
+    { name = "Abdussatar", email = "satarabdus692@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
